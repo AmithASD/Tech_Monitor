@@ -1,0 +1,120 @@
+.tdm{
+    border: red 5pt solid;
+    text-align: center;
+    height: 10PX;
+}
+
+.tdm1{
+    border: red 5pt solid;
+    text-align: center;
+    
+}
+
+.imgm
+{
+    border-radius: ;
+    overflow: hidden; 
+
+
+}
+
+
+.imgm img{
+    transition: 5s;
+}
+
+
+.imgm:hover img{
+    transform: scale(2.2);
+    cursor: pointer;
+    border: 1pt solid crimson;
+
+}
+
+
+
+body{
+    background:transparent;
+  }
+  
+  
+  .circle2{
+    position: absolute;
+    border-radius: 50%;
+    background:red;
+    animation: ripple2 15s infinite;
+    box-shadow: 0px 0px 1px 0px #508fb9;
+  }
+  
+  .small2{
+    width: 200px;
+    height: 200px;
+    right: -100px;
+    bottom: -500px;
+    z-index: -1;
+  }
+  
+  .medium2{
+    width: 400px;
+    height: 400px;
+    right: -100px;
+    bottom: -500px;
+    z-index: -1;
+  }
+  
+  .large2{
+    width: 600px;
+    height: 600px;
+    right: -100px;
+    bottom: -500px;
+    z-index: -1;
+  }
+  
+  .xlarge2{
+    width: 800px;
+    height: 800px;
+    right: -100px;
+    bottom: -500px;
+    z-index: -1;
+  }
+  
+  .xxlarge2{
+    width: 1000px;
+    height: 1000px;
+    right: -100px;
+    bottom: -500px;
+    z-index: -1;
+  }
+  
+  .shade12{
+    opacity: 0.2;
+  }
+  .shade22{
+    opacity: 0.5;
+  }
+  
+  .shade32{
+    opacity: 0.7;
+  }
+  
+  .shade42{
+    opacity: 0.8;
+  }
+  
+  .shade52{
+    opacity: 0.9;
+  }
+  
+  @keyframes ripple2{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+    100%{
+      transform: scale(0.8);
+    }
+  }

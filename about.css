@@ -1,0 +1,164 @@
+.body{
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+display: flex;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+  .left {
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    font-size: 40PT;
+  }
+
+
+  .baccck1
+  {
+   
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5S;
+    z-index: -1;
+    animation-name:ak1;
+    animation-direction: alternate-reverse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+  }
+  
+  
+  @keyframes ak1{
+    0% {background-image: url("mentors/1.png");}
+    20% {background-image: url("mentors/2.png");}
+    40% {background-image: url("mentors/3.png");}
+    50% {background-image: url("mentors/4.png");}
+    60% {background-image: url("mentors/5.png");}
+    80% {background-image: url("mentors/6.png");}
+    100% {background-image: url("mentors/7.png");}
+  
+  }
+
+
+  .baccck2
+  {
+   
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5S;
+    z-index: -1;
+    animation-name:ak2;
+    animation-direction: alternate-reverse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+  }
+  
+  
+  @keyframes ak2{
+    0% {background-image: url("mentors/7.png");}
+    20% {background-image: url("mentors/6.png");}
+    40% {background-image: url("mentors/5.png");}
+    50% {background-image: url("mentors/4.png");}
+    60% {background-image: url("mentors/3.png");}
+    80% {background-image: url("mentors/2.png");}
+    100% {background-image: url("mentors/1.png");}
+  
+  }
+
+
+
+  .baccck3
+  {
+   
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5S;
+    z-index: -1;
+    animation-name:ak3;
+    animation-direction: alternate-reverse;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+  }
+  
+  
+  @keyframes ak3{
+  0% {background-image: url("mentors/8.png");}
+  20% {background-image: url("mentors/9.png");}
+  40% {background-image: url("mentors/10.png");}
+  50% {background-image: url("mentors/11.png");}
+  60% {background-image: url("mentors/1.png");}
+  80% {background-image: url("mentors/2.png");}
+  100% {background-image: url("mentors/3.png");}
+  
+  }
+
+
+
+
+  .services{  
+    text-align: center;
+    margin-left: 175px;
+
+}
+.services h1{
+  	display: inline-block;
+  	text-transform: uppercase;
+  	font-size: 40px;
+  	padding-bottom: 0px;
+  
+	color:#ffffff;
+}
+
+
+
+
+
+
+
+
+  .cen{
+  	max-width: 7920px;
+    margin: auto;
+    max-height: 420px;
+  	overflow: hidden;
+padding-left: -100px;
+}
+.service{
+  	display: inline-block;
+  	width: calc(100% / 4);
+  	margin: 10px;
+  	padding: 10px;
+  	box-sizing:border-box;
+  	cursor: pointer;
+  	transition: 0.4s;
+	margin-top: 40px;
+}

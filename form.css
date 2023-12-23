@@ -1,0 +1,119 @@
+.textf{
+    border:none;
+    outline:none;
+    border:1pt solid crimson;
+    border-radius: 15px;
+    background: transparent;
+    color:black;
+    height: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+
+.tdf{
+    border: 1pt solid red;
+    border-radius: 15px;
+    
+
+}
+
+.selectf{
+    border:none;
+    outline:none;
+    border:1pt solid crimson;
+    border-radius: 15px;
+    background: transparent;
+    color: black;
+    height: 28px;
+    width: 305px;
+    margin-bottom: 10px;
+
+}
+
+.selectf:hover{
+color: red;
+}
+
+.listf{
+    color: black;
+
+}
+
+.listf:hover{
+    color: red;
+}
+
+.btnf1{
+
+    border-radius: 10px;
+    width: 300px;
+    border:red 1pt solid ;
+    height: 22px;
+    background-color:crimson;
+    color: white;
+    margin-bottom: 10px;
+    
+
+    
+}
+
+.btnf2{
+
+    border-radius: 15px;
+    width: 100px;
+    border:red 1pt solid ;
+    height: 30px;
+    background-color:crimson;
+    color: white;
+margin-left: 70px;
+margin-top: 30px;
+
+
+    
+}
+
+.btnf3{
+
+    border-radius: 15px;
+    width: 100px;
+    border:red 1pt solid ;
+    height: 30px;
+    background-color:crimson;
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+  
+    
+
+    
+}
+
+.btnf1:hover{
+background-color: white;
+    color: red;
+    
+}
+.btnf2:hover{
+    background-color: white;
+        color: red;
+        
+    }
+    .btnf3:hover{
+        background-color: white;
+            color: red;
+            
+        }
+
+
+.textareaf
+{
+    border:none;
+    outline:none;
+    border:1pt solid crimson;
+    border-radius: 15px;
+    background: transparent;
+    color:black;
+    height: 70px;
+    width: 300px;
+}
